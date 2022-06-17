@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(163, 196, 199);
+  
+    
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    width: 50%;
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+
+
+
+.grid1 {
+    background-color: rgb(216, 130, 0);
+    width: 308px;
+    height: 498px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+
+.grid2 {
+    background-color: rgb(1, 117, 121);
+    width: 308px;
+    height: 498px;
+    
+}
+
+
+
+.grid3 {
+    background-color: rgb(0, 54, 47);
+    width: 308px;
+    height: 498px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+h2, p, img {
+    color: white;
+    padding: 30px 45px;
+    
+}
+
+h2 {
+    font-size: 35px;
+    font-family: sans-serif;
+}
+
+
+button {
+    margin-top: 80px;
+    margin-left: 45px;
+    font-size: 20X;
+    border-radius: 20px;
+    padding: 10px 35px;
+    outline: none;
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: transparent;
+    color: white;
+}
+
+
+.button-button1 {
+    color: rgb(216, 130, 0);
+}
+.button-button2 {
+    color: rgb(1, 117, 121);
+}
+
+.button-button3 {
+    color: rgb(0, 54, 47);
+}
